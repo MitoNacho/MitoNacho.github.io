@@ -1,0 +1,251 @@
+/* ==========================================================================
+   NACHO NAVES · responsive.css — MOBILE-FIRST
+   Base: 320px → breakpoints: 480 / 600 / 768 / 1024 / 1440
+   ========================================================================== */
+
+/* ---------- ≥480px : más aire ---------- */
+@media (min-width: 480px) {
+  :root {
+    --gutter: 24px;
+  }
+
+  .section {
+    padding-block: 72px;
+  }
+
+  .hero-actions .btn {
+    padding-inline: 22px;
+  }
+
+  .footer-inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+  }
+}
+
+/* ---------- ≥600px : grids de 2 columnas ---------- */
+@media (min-width: 600px) {
+  .grid-skills,
+  .grid-projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .detail-actions .btn {
+    padding-inline: 24px;
+  }
+}
+
+/* ---------- ≥768px : TABLET — nav horizontal, hero 2 col ---------- */
+@media (min-width: 768px) {
+  :root {
+    --header-h: 60px;
+    --gutter: 32px;
+  }
+
+  body {
+    font-size: 15.5px;
+  }
+
+  /* navegación */
+  .nav-desktop {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .nav-mobile {
+    display: none !important;
+  }
+
+  .filter {
+    min-height: 38px;
+  }
+
+  /* hero */
+  .hero {
+    padding-block: 80px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1.35fr 1fr;
+    gap: 48px;
+  }
+
+  .hero-lines {
+    font-size: 15px;
+  }
+
+  /* secciones */
+  .section {
+    padding-block: 84px;
+  }
+  .section-head {
+    margin-bottom: 40px;
+  }
+
+  /* sobre mí */
+  .about-grid {
+    grid-template-columns: 1.4fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  /* detalle */
+  .detail {
+    padding-top: 36px;
+  }
+}
+
+/* ---------- ≥1024px : DESKTOP — 3 columnas, terminal lateral ---------- */
+@media (min-width: 1024px) {
+  :root {
+    --gutter: 40px;
+    --header-h: 62px;
+  }
+
+  .section {
+    padding-block: 96px;
+  }
+
+  .grid-skills,
+  .grid-projects {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+
+  /* nav con separadores verticales tipo terminal */
+  .nav-desktop {
+    gap: 20px;
+  }
+
+  .nav-list {
+    position: relative;
+    padding-left: 20px;
+  }
+  .nav-list::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    bottom: 4px;
+    width: 1px;
+    background: var(--line-strong);
+  }
+  .nav-list li:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: var(--line-strong);
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+
+  /* hero */
+  .hero-grid {
+    gap: 64px;
+  }
+
+  .hero-art {
+    padding: 18px;
+  }
+
+  /* detalle: contenido + terminal lateral */
+  .detail-grid {
+    grid-template-columns: 1.45fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  .detail-terminal {
+    position: sticky;
+    top: 88px;
+  }
+
+  .detail-terminal .terminal-body {
+    min-height: 320px;
+    font-size: 13px;
+  }
+
+  /* footer */
+  .footer-inner {
+    font-size: 13px;
+  }
+}
+
+/* ---------- ≥1440px : pantallas grandes ---------- */
+@media (min-width: 1440px) {
+  :root {
+    --gutter: 48px;
+  }
+
+  .hero-name {
+    font-size: 54px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .hero-art {
+    max-width: 460px;
+    justify-self: end;
+  }
+}
+
+/* ---------- Ajustes finos de seguridad (cualquier tamaño) ---------- */
+@media (max-width: 359px) {
+  :root {
+    --gutter: 14px;
+  }
+
+  .hero-name {
+    font-size: 23px;
+  }
+  .section-title {
+    font-size: 13px;
+  }
+  .project-title {
+    font-size: 11px;
+  }
+  .filter {
+    padding-inline: 10px;
+    font-size: 11px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .hero-actions {
+    flex-direction: column;
+  }
+  .detail-actions .btn {
+    width: 100%;
+  }
+}
+
+/* landscape móvil: menú alto innecesario */
+@media (max-height: 480px) and (max-width: 900px) {
+  .nav-mobile-link {
+    min-height: 38px;
+    padding-block: 4px;
+  }
+}
+
+/* ---------- Impresión mínima ---------- */
+@media print {
+  .scanlines,
+  .site-header,
+  .hero-art,
+  .detail {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+}

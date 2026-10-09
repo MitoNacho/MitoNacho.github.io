@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nacho Naves · Desarrollador Web — Ciberseguridad &amp; IA</title>
+    <meta
+      name="description"
+      content="Portfolio técnico de Nacho Naves. Python Developer especializándose en ciberseguridad e inteligencia artificial. Proyectos, conocimientos y evolución técnica."
+    />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#05090D" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+    <div class="scanlines" aria-hidden="true"></div>
+
+    <!-- ==================== HEADER / NAV ==================== -->
+    <header class="site-header">
+      <div class="header-inner container">
+        <a href="#inicio" class="brand" aria-label="Nacho Naves — inicio">
+          <span class="brand-brackets">[</span>&nbsp;NN&nbsp;<span
+            class="brand-brackets"
+            >]</span
+          >
+        </a>
+
+        <nav class="nav-desktop" aria-label="Navegación principal">
+          <ul class="nav-list">
+            <li>
+              <a href="#inicio" class="nav-link is-active" data-nav="inicio"
+                >01. INICIO</a
+              >
+            </li>
+            <li>
+              <a href="#aprendiendo" class="nav-link" data-nav="aprendiendo"
+                >02. APRENDIENDO</a
+              >
+            </li>
+            <li>
+              <a href="#proyectos" class="nav-link" data-nav="proyectos"
+                >03. PROYECTOS</a
+              >
+            </li>
+            <li>
+              <a href="#sobre-mi" class="nav-link" data-nav="sobre-mi"
+                >04. SOBRE MÍ</a
+              >
+            </li>
+          </ul>
+          <a
+            class="nav-github"
+            href="https://github.com/MitoNacho"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GITHUB <span aria-hidden="true">↗</span
+            ><span class="sr-only">(abre en una pestaña nueva)</span>
+          </a>
+        </nav>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Abrir menú de navegación"
+        >
+          <span class="menu-toggle-icon" aria-hidden="true">[ ≡ ]</span>
+        </button>
+      </div>
+
+      <nav
+        id="mobile-menu"
+        class="nav-mobile"
+        aria-label="Navegación móvil"
+        hidden
+      >
+        <ul class="nav-mobile-list">
+          <li><a href="#inicio" class="nav-mobile-link">01. INICIO</a></li>
+          <li>
+            <a href="#aprendiendo" class="nav-mobile-link">02. APRENDIENDO</a>
+          </li>
+          <li>
+            <a href="#proyectos" class="nav-mobile-link">03. PROYECTOS</a>
+          </li>
+          <li><a href="#sobre-mi" class="nav-mobile-link">04. SOBRE MÍ</a></li>
+          <li class="nav-mobile-sep" aria-hidden="true">──────────</li>
+          <li>
+            <a
+              class="nav-mobile-link"
+              href="https://github.com/MitoNacho"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GITHUB <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- ==================== 01. INICIO ==================== -->
+      <section id="inicio" class="section hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="hero-kicker reveal">
+              <span class="prompt-char" aria-hidden="true">$</span> whoami
+            </p>
+
+            <h1 id="hero-title" class="hero-title reveal">
+              <span class="hero-name">NACHO</span>
+              <span class="hero-name"
+                >NAVES<span class="cursor-blink" aria-hidden="true"
+                  >_</span
+                ></span
+              >
+            </h1>
+
+            <p class="hero-role reveal">
+              <span class="role-green">Desarrollo Web</span>
+              <span class="role-sep" aria-hidden="true">//</span>
+              <span>Ciberseguridad &amp; IA</span>
+            </p>
+
+            <ul class="hero-lines reveal">
+              <li>
+                <span class="arrow" aria-hidden="true">&gt;</span> Diseño y desarrollo
+                de proyectos.
+              </li>
+              <li>
+                <span class="arrow" aria-hidden="true">&gt;</span> Master en
+                Ciberseguridad e Inteligencia Artificial.
+              </li>
+              <li>
+                <span class="arrow" aria-hidden="true">&gt;</span> Formación
+                Profesional & Autodidacta
+              </li>
+            </ul>
+
+            <div class="hero-actions reveal">
+              <a href="#proyectos" class="btn btn-primary"
+                >VER PROYECTOS <span aria-hidden="true">→</span></a
+              >
+              <a
+                href="https://github.com/MitoNacho"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-ghost"
+              >
+                GITHUB <span aria-hidden="true">→</span
+                ><span class="sr-only">(abre en una pestaña nueva)</span>
+              </a>
+            </div>
+
+            <div class="hero-status reveal">
+              <p class="status-label">ACTUALMENTE ESTUDIANDO</p>
+              <p class="status-value">
+                <span class="dot dot-green" aria-hidden="true">●</span>
+                Ciberseguridad + Inteligencia Artificial
+              </p>
+            </div>
+          </div>
+
+          <!-- Pixel-art retro sutil -->
+          <div class="hero-art reveal" aria-hidden="true">
+            <img src="assets/images/nacho-pixel.png" class="retro" />
+          </div>
+
+          <div class="hero-status2 reveal">
+          <p class="status-label"><span class="role-green">CONECTA</span></p>
+
+          <div class="hero-socials2">
+          <a href="https://www.linkedin.com/in/nacho-naves-men%C3%A9ndez-a358451b6/" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"/>
+          </svg>
+          </a>
+
+          <a href="https://glamorous-hyacinth-b21.notion.site/Nacho-Naves-16b2ef6b3f0c4a069a54114c6901e717" target="_blank" rel="noopener noreferrer"
+            aria-label="Notion" title="Notion">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M4.46 3.3c.75-.61 1.06-.56 2.23-.65l11.03-.66c1.08-.09 1.3.14 2.06.72l3.53 2.78c.62.48.82.61.82 1.12v13.6c0 .85-.3 1.35-1.37 1.42l-12.1.72c-.77.04-1.15-.07-1.56-.6l-3.87-5.02c-.45-.6-.65-1.03-.65-1.54V4.7c0-.65.3-.99.88-1.4ZM7.2 5.1c-.44.03-.53.1-.53.44v11.83c0 .34.12.5.45.47l10.75-.63c.34-.02.45-.2.45-.52V4.94c0-.3-.12-.45-.4-.43L7.2 5.1Zm1.08 1.66 2.3-.15 4.1 6.65V7.17l1.82-.12v9.18l-2.13.13-4.26-6.8v6.5l-1.83.1V6.76Z"/>
+          </svg>
+          </a>
+
+          <a href="mailto:mito.nacho.dev@gmail.com"
+            aria-label="Enviar email" title="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="2.5" y="4.5" width="19" height="15" rx="1.5"
+              fill="none" stroke="currentColor" stroke-width="1.7"/>
+          <path d="m3.5 6 8.5 7 8.5-7" fill="none"
+              stroke="currentColor" stroke-width="1.7"
+              stroke-linejoin="round"/>
+          </svg>
+          </a>
+        </div>
+      </div>
+      </section>
+
+      <div class="container"><hr class="divider" /></div>
+
+      <!-- ==================== 02. APRENDIENDO ==================== -->
+      <section
+        id="aprendiendo"
+        class="section"
+        aria-labelledby="learning-title"
+      >
+        <div class="container">
+          <header class="section-head reveal">
+            <h2 id="learning-title" class="section-title">
+              02. APRENDIENDO<span class="cursor-blink" aria-hidden="true"
+                >_</span
+              >
+            </h2>
+            <p class="section-sub">
+              Conceptos y tecnologías que estoy estudiando,<br />
+              practicando y aplicando en mis proyectos.
+            </p>
+          </header>
+
+          <div id="learning-grid" class="grid grid-skills">
+            <!-- render dinámico desde js/data.js -->
+          </div>
+        </div>
+      </section>
+
+      <div class="container"><hr class="divider" /></div>
+
+      <!-- ==================== 03. PROYECTOS ==================== -->
+      <section id="proyectos" class="section" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="section-head reveal">
+            <h2 id="projects-title" class="section-title">
+              03. PROYECTOS<span class="cursor-blink" aria-hidden="true"
+                >_</span
+              >
+            </h2>
+            <p class="section-sub">
+              Herramientas y aplicaciones que he desarrollado<br />
+              para aprender, experimentar y resolver problemas.
+            </p>
+          </header>
+
+          <div
+            class="filters reveal"
+            role="group"
+            aria-label="Filtrar proyectos por categoría"
+          >
+            <button
+              class="filter is-active"
+              type="button"
+              data-filter="all"
+              aria-pressed="true"
+            >
+              TODOS
+            </button>
+            <button
+              class="filter"
+              type="button"
+              data-filter="ciberseguridad"
+              aria-pressed="false"
+            >
+              CIBERSEGURIDAD
+            </button>
+            <button
+              class="filter"
+              type="button"
+              data-filter="desarrollo"
+              aria-pressed="false"
+            >
+              DESARROLLO
+            </button>
+            <button
+              class="filter"
+              type="button"
+              data-filter="automatizacion"
+              aria-pressed="false"
+            >
+              AUTOMATIZACIÓN
+            </button>
+            <button
+              class="filter"
+              type="button"
+              data-filter="apis"
+              aria-pressed="false"
+            >
+              APIS
+            </button>
+          </div>
+
+          <p
+            id="projects-count"
+            class="projects-count reveal"
+            aria-live="polite"
+          ></p>
+
+          <div id="projects-grid" class="grid grid-projects">
+            <!-- render dinámico desde js/data.js -->
+          </div>
+
+          <p id="projects-empty" class="projects-empty" hidden>
+            <span aria-hidden="true">[ ! ]</span> No hay proyectos en esta
+            categoría.
+          </p>
+        </div>
+      </section>
+
+      <div class="container"><hr class="divider" /></div>
+
+      <!-- ==================== 04. SOBRE MÍ ==================== -->
+      <section id="sobre-mi" class="section" aria-labelledby="about-title">
+        <div class="container">
+          <header class="section-head reveal">
+            <h2 id="about-title" class="section-title">
+              04. SOBRE MÍ<span class="cursor-blink" aria-hidden="true">_</span>
+            </h2>
+          </header>
+
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p>
+                Soy <span class="status--practica">Nacho Naves</span>,
+                desarrollador de aplicaciones Web y
+                mi pasión es entender cómo funcionan las cosas, resolver problemas y convertir ideas en proyectos funcionales.
+              </p>
+              <p>
+                Actualmente estoy cursando un Máster en Ciberseguridad e
+                Inteligencia Artificial en
+                <span class="status--completado"> Evolve</span>, mientras sigo desarrollando proyectos propios
+                para poner en práctica lo que aprendo y ampliar mis conocimientos.
+              </p>
+              <p>
+                Este espacio es una muestra de mi trabajo, mis intereses y todo lo que voy aprendiendo durante el camino.
+                
+              </p>
+
+              <div class="about-actions">
+                <a
+                  class="btn btn-primary"
+                  href="assets/cv-nacho-naves.pdf"
+                  download
+                >
+                  DESCARGAR CV <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+
+            <aside
+              class="about-meta reveal"
+              aria-label="Formación y estado actual"
+            >
+              <div class="meta-block">
+                <h3 class="meta-title">ACTUALMENTE</h3>
+                <ul class="meta-list">
+                  <li>
+                    <span class="dot dot-green" aria-hidden="true">●</span>
+                    <span>
+                      <strong>Máster Ciberseguridad + IA</strong>
+                      <span class="meta-sub">Evolve · 2026 — 2027</span>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="meta-block">
+                <h3 class="meta-title">FORMACIÓN</h3>
+                <ul class="meta-list">
+                  <li>
+                    <span class="dot dot-cyan" aria-hidden="true">●</span>
+                    <span>
+                      <strong>Desarrollo de Aplicaciones Web</strong>
+                      <span class="meta-sub">ILERNA · 2023 — 2026</span>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="meta-block">
+                <h3 class="meta-title">STACK</h3>
+                <p class="meta-stack">Python · Linux · Kali · APIs · Git</p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== VISTA DETALLE PROYECTO ==================== -->
+    <div
+      id="project-detail"
+      class="detail"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="detail-title"
+      hidden
+    >
+      <div class="container detail-inner">
+        <button class="btn btn-ghost detail-back" type="button">
+          <span aria-hidden="true">←</span> VOLVER A PROYECTOS
+        </button>
+
+        <div class="detail-grid">
+          <div class="detail-main">
+            <p id="detail-category" class="detail-category"></p>
+            <h2 id="detail-title" class="detail-title"></h2>
+            <p id="detail-subtitle" class="detail-subtitle"></p>
+            <p id="detail-stack" class="detail-stack"></p>
+            <p id="detail-desc" class="detail-desc"></p>
+
+            <div class="detail-actions">
+              <a
+                id="detail-github"
+                class="btn btn-primary"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                VER EN GITHUB <span aria-hidden="true">↗</span>
+              </a>
+              <a id="detail-docs" class="btn btn-ghost" href="#"
+                >DOCUMENTACIÓN <span aria-hidden="true">→</span></a
+              >
+            </div>
+
+            <section class="detail-block" aria-labelledby="block-goal">
+              <h3 id="block-goal" class="detail-block-title">
+                QUÉ QUERÍA CONSEGUIR
+              </h3>
+              <p id="detail-goal" class="detail-block-text"></p>
+            </section>
+
+            <section class="detail-block" aria-labelledby="block-tech">
+              <h3 id="block-tech" class="detail-block-title">TECNOLOGÍAS</h3>
+              <ul id="detail-tech" class="tag-list"></ul>
+            </section>
+
+            <section class="detail-block" aria-labelledby="block-learned">
+              <h3 id="block-learned" class="detail-block-title">
+                LO QUE APRENDÍ
+              </h3>
+              <ul id="detail-learned" class="check-list"></ul>
+            </section>
+
+            <section class="detail-block" aria-labelledby="block-status">
+              <h3 id="block-status" class="detail-block-title">ESTADO</h3>
+              <p id="detail-status" class="detail-status"></p>
+            </section>
+          </div>
+
+          <aside
+            class="detail-terminal"
+            aria-label="Representación visual de terminal del proyecto"
+          >
+            <div class="terminal">
+              <div class="terminal-bar">
+                <span class="terminal-dot" aria-hidden="true"></span>
+                <span class="terminal-name">bash — nacho@local</span>
+              </div>
+              <pre
+                class="terminal-body"
+              ><code id="terminal-output"></code></pre>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-whoami">
+          <span aria-hidden="true">$ nacho_naves
+        </p>
+        <p class="footer-status">
+          <span class="dot dot-green" aria-hidden="true">●</span>[ ONLINE ]
+        </p>
+        <p class="footer-copy muted">mito.nacho.dev@gmail.com ·</p>
+      </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
