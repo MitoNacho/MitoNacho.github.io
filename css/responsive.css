@@ -249,3 +249,22 @@
     color: #000;
   }
 }
+
+/* ---------- Terminal responsive en móviles ---------- */
+@media (max-width: 767px) {
+  .detail-terminal,
+  .detail-terminal .terminal {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .detail-terminal .terminal-body {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    overflow-x: hidden;
+    max-width: 100%;
+    font-size: 11px;
+    padding: 12px;
+  }
+}

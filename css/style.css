@@ -370,7 +370,7 @@ a {
   padding: 8px 4px;
   font-size: 14px;
   letter-spacing: 0.5px;
-  color: var(--muted);
+
   border-bottom: 1px solid var(--line);
   transition:
     color var(--t-fast) var(--ease),

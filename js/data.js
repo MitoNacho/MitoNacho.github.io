@@ -309,14 +309,7 @@ const projects = [
     longDescription:
       "Dashboard meteorológico desarrollado con Python y Streamlit que consume la API de OpenWeatherMap para mostrar la temperatura, humedad, viento y sensación térmica. Incluye fondos dinámicos adaptados a las condiciones climáticas, diseño responsive y soporte para modos claro y oscuro.",
     goal: "Desarrollar una aplicación web conectada a una API externa para consultar información meteorológica en tiempo real, transformarla y presentarla mediante una interfaz visual e intuitiva.",
-    technologies: [
-      "Python",
-      "Streamlit",
-      "OpenWeatherMap API",
-      "Requests",
-      "HTML",
-      "CSS",
-    ],
+    technologies: ["Python", "Streamlit", "OpenWeatherMap API", "Requests"],
     learned: [
       "Consumo de APIs externas con Python",
       "Procesamiento y presentación de datos meteorológicos",
