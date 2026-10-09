@@ -10,6 +10,7 @@
   --bg-3: #0a1016;
   --surface: #0a1016;
   --surface-2: #0e151c;
+  --bg-mob: #00ff9d46;
 
   /* líneas */
   --line: rgba(139, 150, 159, 0.16);
@@ -334,7 +335,7 @@ a {
 /* menú móvil desplegable */
 .nav-mobile {
   border-top: 1px solid var(--line);
-  background: var(--bg-2);
+  background: var(--bg-mob);
   overflow: hidden;
 }
 .nav-mobile[hidden] {
