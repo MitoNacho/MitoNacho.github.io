@@ -126,7 +126,7 @@ const projects = [
       "CLI con argparse",
       "Generación de informes",
     ],
-    github: "https://github.com/",
+    github: "https://github.com/MitoNacho/ioc-investigator/",
     docs: "https://github.com/MitoNacho/ioc-investigator/blob/main/README.md",
     status: "completado",
     terminal: {
@@ -200,8 +200,8 @@ const projects = [
       "Diseño de lógica de juego",
       "Formateo y visualización de datos",
     ],
-    github: "https://github.com/",
-    docs: "#",
+    github: "https://github.com/MitoNacho/youtube-channel-analytics/",
+    docs: "https://github.com/MitoNacho/youtube-channel-analytics/blob/main/README.md",
     status: "completado",
     terminal: {
       cmd: "uvicorn app:main --reload",
@@ -247,7 +247,7 @@ const projects = [
       "Jobs programados",
       "Manejo de estados de usuario y timezone",
     ],
-    github: "https://github.com/",
+    github: "https://github.com/MitoNacho/telegram-reminder-bot/",
     docs: "https://github.com/MitoNacho/telegram-reminder-bot/blob/main/README.md",
     status: "completado",
     terminal: {
@@ -282,7 +282,7 @@ const projects = [
       "Lógica de programación",
       "Backend",
     ],
-    github: "https://github.com/",
+    github: "https://github.com/MitoNacho/slot_machine/",
     docs: "https://github.com/MitoNacho/slot_machine/blob/main/README.md",
     status: "completado",
     terminal: {
@@ -317,7 +317,7 @@ const projects = [
       "Personalización de interfaces con HTML y CSS",
       "Encriptado de las claves de los servicios",
     ],
-    github: "https://github.com/MitoNacho/Weather-App",
+    github: "https://github.com/MitoNacho/Weather-App/",
     docs: "https://github.com/MitoNacho/Weather-App/blob/main/README.md/",
     status: "completado",
     terminal: {
@@ -366,7 +366,7 @@ const projects = [
       "Normalización de texto y resolución de alias",
       "Validación y serialización de datos con Pydantic",
     ],
-    github: "https://github.com/MitoNacho/football-player-api",
+    github: "https://github.com/MitoNacho/football-player-api/",
     docs: "https://github.com/MitoNacho/football-player-api/blob/main/README.md",
     status: "completado",
     terminal: {
@@ -420,7 +420,7 @@ const projects = [
       "Gestión de notas para laboratorios de pentesting",
       "Creación de plantillas reutilizables para auditorías técnicas",
     ],
-    github: "#",
+    github: "https://github.com/MitoNacho/",
     docs: "https://glamorous-hyacinth-b21.notion.site/Plantilla-Fase-Enumeraci-n-3e53b1a4793d80caab6bc3dfecff02e7",
     status: "completado",
     terminal: {
@@ -473,8 +473,8 @@ const projects = [
       "Accesibilidad",
       "Render dinámico con JS",
     ],
-    github: "https://github.com/",
-    docs: "#",
+    github: "https://github.com/MitoNacho/",
+    docs: "https://github.com/MitoNacho/cs/",
     status: "completado",
     terminal: {
       cmd: "cat portfolio.info",
@@ -509,7 +509,7 @@ const projects = [
       "Gestión de archivos y almacenamiento de datos",
       "Interacción con el portapapeles del sistema",
     ],
-    github: "https://github.com/MitoNacho/PassW",
+    github: "https://github.com/MitoNacho/PassW/",
     docs: "https://github.com/MitoNacho/PassW/blob/main/README.md#",
     status: "completado",
     terminal: {
