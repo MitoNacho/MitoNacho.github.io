@@ -1,6 +1,6 @@
 # 👨‍💻 Nacho Naves | Portfolio
 
-**Desarrollo de software · Python · Ciberseguridad**
+**Desarrollo Web · Python · Ciberseguridad**
 
 Bienvenido a mi portfolio personal. Soy Nacho Naves, desarrollador enfocado en Python y en la creación de herramientas y aplicaciones prácticas. Actualmente estoy ampliando mis conocimientos en ciberseguridad e inteligencia artificial, con especial interés en la automatización, el análisis de sistemas y la seguridad informática.
 
