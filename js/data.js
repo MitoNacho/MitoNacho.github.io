@@ -1,6 +1,6 @@
 /* ==========================================================================
    NACHO NAVES · data.js
-   ÚNICO FICHERO QUE NECESITAS EDITAR PARA CAMBIAR EL CONTENIDO
+   
    --------------------------------------------------------------------------
    - learning[]: tarjetas de la sección "02. APRENDIENDO"
    - projects[]: tarjetas + vista detalle de "03. PROYECTOS"
@@ -143,44 +143,46 @@ const projects = [
       ],
     },
   },
-  /*
+
   {
     id: "black-compass",
     title: "BLACK COMPASS",
-    subtitle: "Recon CLI",
+    subtitle: "Reconnaissance CLI Tool",
     categories: ["ciberseguridad"],
-    tags: ["Python", "Recon", "Kali Linux"],
+    tags: ["Python", "Kali Linux", "CLI"],
     description:
-      "CLI para reconocimiento en entornos de ciberseguridad: hosts, puertos y servicios.",
+      "Herramienta CLI en Python para organizar tareas de reconocimiento en Kali Linux mediante perfiles configurables y herramientas externas.",
     longDescription:
-      "CLI de reconocimiento que orquesta escaneos de hosts, puertos y servicios sobre objetivos autorizados, organizando los resultados en un informe único.",
-    goal: "Automatizar los primeros pasos de cualquier ejercicio de reconocimiento: descubrir hosts vivos, enumerar puertos y recoger servicios en un formato limpio y reutilizable.",
-    technologies: ["Python", "Nmap", "Sockets", "AsyncIO", "Rich"],
+      "Herramienta de línea de comandos que permite ejecutar perfiles de reconocimiento configurados en YAML, utilizar herramientas como Nmap, WhatWeb y dig, y guardar los resultados de cada ejecución junto con sus metadatos e informes en Markdown.",
+    goal: "Quería simplificar y organizar las tareas de reconocimiento que realizo en laboratorios de ciberseguridad. El objetivo era centralizar la ejecución de comandos habituales, reutilizar perfiles personalizados y guardar los resultados de forma estructurada para facilitar su revisión y documentación.",
+    technologies: ["Python", "Argparse", "Pytest", "Nmap", "WhatWeb", "dig"],
     learned: [
-      "Escaneo de red con Nmap",
-      "Programación asíncrona",
-      "Parsing de resultados",
-      "Salida formateada en terminal",
+      "Diseño de arquitectura modular",
+      "Configuración de perfiles mediante YAML",
+      "Validación de entradas y gestión de errores",
+      "Generación de informes en Markdown y metadatos JSON",
+      "Pruebas automatizadas con Pytest",
     ],
-    github: "https://github.com/",
-    docs: "#",
+    github: "https://github.com/MitoNacho/black-compass/",
+    docs: "https://github.com/MitoNacho/black-compass/blob/main/README.md",
     status: "practica",
     terminal: {
-      cmd: "black-compass scan 192.168.1.0/24",
+      cmd: "black-compass --help",
       output: [
-        { text: "$ black-compass scan 192.168.1.0/24", cls: "t-cmd" },
+        { text: "$ black-compass --help", cls: "t-cmd" },
         { text: "", cls: "" },
-        { text: "[*] Descubriendo hosts vivos...", cls: "t-dim" },
-        { text: "[+] 192.168.1.1   gateway", cls: "t-flag" },
-        { text: "[+] 192.168.1.24  dev-box", cls: "t-flag" },
-        { text: "[+] 192.168.1.50  nas", cls: "t-flag" },
-        { text: "", cls: "" },
-        { text: "[*] Escaneando puertos (1-1024)...", cls: "t-dim" },
-        { text: "[ OK ] 3 hosts · 11 servicios", cls: "t-cmd" },
+        { text: "BLACK COMPASS // RECONNAISSANCE CLI", cls: "" },
+        { text: "Perfiles YAML configurables", cls: "t-flag" },
+        { text: "Escaneo de puertos con Nmap", cls: "t-flag" },
+        { text: "Identificación web con WhatWeb", cls: "t-flag" },
+        { text: "Consultas DNS con dig y nslookup", cls: "t-flag" },
+        {
+          text: "Resultados: raw.txt + metadata.json + report.md",
+          cls: "t-flag",
+        },
       ],
     },
   },
-  */
 
   {
     id: "youtube-analytics",

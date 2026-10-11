@@ -34,19 +34,6 @@ Bienvenido a mi portfolio personal. Soy Nacho Naves, desarrollador enfocado en P
 
 `Linux` · `Kali Linux` · `Nmap` · `SIEM` · `Threat Intelligence`
 
-## 📂 Proyectos destacados
-
-Puedes explorar mis repositorios para conocer mis proyectos de desarrollo, automatización y análisis.
-
-- ⚽ **Football Player API** — API desarrollada con Python y FastAPI para consultar información de futbolistas.
-- 📊 **YouTube Channel Analytics** — Aplicación web para consultar y analizar estadísticas de canales de YouTube.
-- 🌦️ **Weather App** — Aplicación para consultar información meteorológica.
-- 🔎 **Sentinel CLI** — Herramienta de inteligencia de amenazas para consultar información de indicadores mediante diferentes proveedores.
-- 🤖 **Telegram Reminder Bot** — Bot para gestionar recordatorios mediante tareas programadas.
-
-Encontrarás más proyectos y detalles técnicos en mi portfolio y en mis repositorios.
-
-
 ## 📬 Contacto
 
 - 🌐 Portfolio: [mitonacho.github.io](https://mitonacho.github.io/)
